@@ -74,13 +74,13 @@ streamlit run app.py
  ┗ 📄requirements.txt    # Python dependencies
 ```
 ## 🧪 Test a YouTube Video
-
+```bash
 python test.py
-
+```
 Use any valid video ID with captions.
 
 ## 🙋 FAQ
-
+```text
 Q: What if a YouTube video has no transcript?
 A: The app will show a warning. Try a different video that has captions (auto or manual).
 
