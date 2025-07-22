@@ -63,7 +63,7 @@ source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 
 # Run the app
 streamlit run app.py
-
+```
 ## 📁 Project Structure
 ```text
 📦summarization-app/
