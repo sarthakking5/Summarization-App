@@ -40,7 +40,7 @@ Create a `.env` file in the root directory and add your Groq API key:
 
 ```env
 GROQ_API_KEY=your_groq_api_key_here
-```env
+```
 ## 🧠 How It Works
 
 You input a **YouTube video URL** or **article URL**.
@@ -65,14 +65,14 @@ source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 streamlit run app.py
 
 ## 📁 Project Structure
-
+```text
 📦summarization-app/
  ┣ 📄app.py              # Main Streamlit application
  ┣ 📄test.py             # Transcript fetch testing script
  ┣ 📄.env                # Your Groq API key (excluded from Git)
  ┣ 📄.gitignore          # Git ignored files (e.g., venv, __pycache__)
  ┗ 📄requirements.txt    # Python dependencies
-
+```
 ## 🧪 Test a YouTube Video
 
 python test.py
